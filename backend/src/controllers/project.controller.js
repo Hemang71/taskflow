@@ -40,7 +40,10 @@ const getProjects = async (req, res) => {
       },
       include: {
         members: { include: { user: { select: { id: true, name: true, email: true } } } },
-        _count: { select: { tasks: true } }
+        _count: { select: { tasks: true } },
+        tasks: {
+          select: { status: true }
+        }
       },
       orderBy: { createdAt: 'desc' }
     })

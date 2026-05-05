@@ -81,7 +81,7 @@ cd frontend
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173` (frontend) and API at `http://localhost:5000` (backend).
+The application will be available at "https://taskflow-cnal.up.railway.app"
 
 ## 📁 Project Structure
 
@@ -129,18 +129,6 @@ taskflow/
 ### Team Members
 - `POST /projects/:id/members` — Add team member
 - `DELETE /projects/:id/members/:memberId` — Remove member
-
-## 📹 Demo
-
-Check out a demo video to see Taskflow in action! [Add your demo link here]
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📝 License
-
-This project is licensed under the ISC License.
 
 ---
 
